@@ -1,0 +1,41 @@
+/**
+Sample css code
+*/
+/* Set height to 100% for body and html to enable the background image to cover the whole page: */
+body,
+html {
+  height: 100%;
+}
+
+/*background color */
+body{
+  background-color: lightgray;
+  
+  }
+
+/*paragraph text*/
+h1{
+  color: black;
+}
+h2{
+  color:black;
+}
+
+#mainPage{
+  background-image: url("../img/usf-logo-png-2.png"); /*find better image*/
+  background-repeat: no-repeat;
+  height: 300px;
+  border: black;
+  border-style: double;
+  align-content: left;
+}
+.center{
+  text-align: center;
+  border-style: double;
+}
+
+#crosstab{
+  color: black;
+}
+
+
