@@ -9,6 +9,12 @@ html {
   align-content: center;
 }
 
+#aboutUS{
+  background-color: white;
+}
+
+
+
 /*background color */
 body{
   background-color: lightgray;
@@ -69,5 +75,15 @@ align-content: center;
   max-width: 2000px;
 }
 
+#member{
+  display: inline-block;
+  text-align: left;
+}
+
+#summary{
+  text-align: left;
+  display: inline-block;
+  margin-left: 2.5;
+}
 
 
