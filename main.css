@@ -5,12 +5,13 @@ Sample css code
 body,
 html {
   height: 100%;
+  display: block;
+  align-content: center;
 }
 
 /*background color */
 body{
   background-color: lightgray;
-  
   }
 
 /*paragraph text*/
@@ -22,13 +23,15 @@ h2{
 }
 
 #mainPage{
-  background-image: url("../img/usf-logo-png-2.png"); /*find better image*/
-  background-repeat: no-repeat;
-  height: 300px;
-  border: black;
-  border-style: double;
-  align-content: left;
+/*background-image: url("../img/bookStack"); /*find better image*/ 
+background-repeat: no-repeat;
+height: 100px;
+width: max-content;
+align-content: center;
+
+
 }
+
 .center{
   text-align: center;
   border-style: double;
@@ -36,6 +39,35 @@ h2{
 
 #crosstab{
   color: black;
+  list-style: none;
+  float: left;
+  margin:0 5px;
+  border: black;
+  border: double;
+  background-image: url("../img/usf-logo-png-2.png");
+  width: 1500px;
+  
 }
+
+#ul{
+  list-style-type: none;
+  position: fixed;
+  margin-left: auto;
+  /*width: 500px;*/
+
+}
+
+#crossList{
+  list-style: none;
+  display: inline-block;
+  padding: 0;
+  width: 200px;
+  text-align: center;
+}
+
+#schoolImage{
+  max-width: 2000px;
+}
+
 
 
